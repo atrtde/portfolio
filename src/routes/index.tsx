@@ -69,20 +69,24 @@ const Home = () => (
           for compressing code for LLMs
         </li>
       </ul>
-      <p>Read some of my essays below:</p>
-      <ul className="list-disc pl-5">
-        {essays.map((essay) => (
-          <li key={essay.slug}>
-            <Link
-              className={linkClass}
-              params={{ slug: essay.slug }}
-              to="/essays/$slug"
-            >
-              {essay.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      {essays.length > 0 && (
+        <>
+          <p>Read some of my essays below:</p>
+          <ul className="list-disc pl-5">
+            {essays.map((essay) => (
+              <li key={essay.slug}>
+                <Link
+                  className={linkClass}
+                  params={{ slug: essay.slug }}
+                  to="/essays/$slug"
+                >
+                  {essay.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
     </div>
   </section>
 );
