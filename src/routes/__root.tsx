@@ -47,7 +47,7 @@ const NotFound = () => (
     <div className="space-y-3.5 text-base leading-relaxed text-foreground">
       <h1 className="text-xl font-medium">You are lost.</h1>
       <p>
-        This page doesn't exist, you can go{" "}
+        This page doesn&apos;t exist, you can go{" "}
         <Link className={notFoundLinkClass} to="/">
           home
         </Link>{" "}
