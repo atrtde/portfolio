@@ -38,7 +38,7 @@ const Home = () => (
         <li>
           <a
             className={linkClass}
-            href="https://github.com/alexandretrotel/todo-tree"
+            href="https://github.com/atrtde/todo-tree"
             rel="noreferrer"
             target="_blank"
           >
@@ -49,7 +49,7 @@ const Home = () => (
         <li>
           <a
             className={linkClass}
-            href="https://github.com/alexandretrotel/mntn"
+            href="https://github.com/atrtde/mntn"
             rel="noreferrer"
             target="_blank"
           >
@@ -60,7 +60,7 @@ const Home = () => (
         <li>
           <a
             className={linkClass}
-            href="https://github.com/alexandretrotel/feedyourai"
+            href="https://github.com/atrtde/feedyourai"
             rel="noreferrer"
             target="_blank"
           >
