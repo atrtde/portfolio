@@ -25,6 +25,16 @@ const personSchema = {
 const RootDocument = ({ children }: { children: ReactNode }) => (
   <html lang="en">
     <head>
+      <meta
+        content="#ffffff"
+        media="(prefers-color-scheme: light)"
+        name="theme-color"
+      />
+      <meta
+        content="#0a0a0a"
+        media="(prefers-color-scheme: dark)"
+        name="theme-color"
+      />
       <HeadContent />
     </head>
     <body className="antialiased">
@@ -68,6 +78,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { content: "width=device-width, initial-scale=1", name: "viewport" },
+      { content: "light dark", name: "color-scheme" },
       { title: SITE.title },
       { content: SITE.description, name: "description" },
       { content: "website", property: "og:type" },
