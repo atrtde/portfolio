@@ -41,7 +41,7 @@ export default defineConfig({
       },
       sitemap: {
         enabled: true,
-        host: "https://www.atrtde.com",
+        host: "https://www.alexandretrotel.org",
       },
       srcDirectory: "src",
     }),

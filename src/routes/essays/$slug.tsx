@@ -48,7 +48,7 @@ export const Route = createFileRoute("/essays/$slug")({
         { href: `${SITE.baseUrl}/essays/${params.slug}`, rel: "canonical" },
       ],
       meta: [
-        { title: `${fm.title} | atrtde` },
+        { title: `${fm.title} | Alexandre Trotel` },
         { content: fm.description, name: "description" },
         { content: fm.title, property: "og:title" },
         { content: fm.description, property: "og:description" },

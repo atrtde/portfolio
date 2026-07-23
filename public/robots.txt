@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.atrtde.com/sitemap.xml
+Sitemap: https://www.alexandretrotel.org/sitemap.xml
